@@ -1,0 +1,198 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+	margin:0;
+}
+
+h1{
+	font-size:2.5rem;
+	text-align:center;
+}
+
+a{
+	color:pink;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+[class*="col-"]{
+	float:left;
+	padding:10px;
+	}
+/*for mobile*/
+
+[class*="col-"]{
+	width: 100%;
+
+}
+
+/* start navbar */
+.navbar{
+	background-color:gray;
+	padding: 1% 7%;
+	text-align:center;
+}
+
+.navbar h1{
+	font-family: 'Piedra', cursive;
+	color:#1ce736;
+	margin:0;
+	padding-top:10px;
+	font-size:3.5rem;
+	text-align:left;
+}
+
+.navbar-menu{
+	display:flex;
+	flex-direction:column;
+	text-transform: uppercase;
+	
+}
+.navbar-menu a{
+	background-color:#0099cc;
+	border-radius: 15px;
+	margin:7px 0px;
+	padding:10px;
+	
+}
+
+.navbar-menu a:hover{
+	background-color:white;
+}
+
+
+.navbar::after{
+	content:'';
+	display:table;
+	clear:both;
+}
+
+/* ends navbar*/
+
+/*profile  Start*/
+
+.profile{
+	padding:70px 10px;
+	
+}
+.profile h1{
+	font-family: 'Dancing Script', cursive;
+	font-size:4rem;
+	color:#1ce736;
+}
+.profile p{
+	text-align:center;
+	margin:0 auto 15 auto;
+	width:99%;
+	color:gray;
+	
+}
+
+/*profile  End*/
+
+/*aboutme starts*/
+h2{
+	font-size:1.3rem;
+	text-align:center;
+}
+.about-me{
+	background-color:green;
+	text-align:center;
+	padding:1% 7%;
+	color:white;
+	font-family: 'Fira Sans', sans-serif;
+}
+.about-me::after{
+	clear:both;
+	display:table;
+	content:'';
+}
+.dotted-hr{
+	border:dotted 6px white;
+	border-bottom:none;
+	margin:20px auto;
+	width:80px;
+}
+.aboutme-image img{
+	border:5px solid white;
+	border-radius:50%;
+	height:220px;
+	width:220px;
+}
+.about-me p{
+	text-align:center;
+}
+.about-me a{
+	font-size:1.1rem;
+	color:white;
+}
+
+.aboutme-decription p{
+	text-align:center;
+	
+}
+
+/*aboutme ends*/
+
+
+/*contact me start*/
+.contact-description{
+	padding:1% 7%;
+	background-color:#336699;
+	color:white;
+}
+
+.contact-description::after{
+	clear:both;
+	display:table;
+	content:'';
+}
+.contact{
+	padding:1% 7%;
+	text-align:center;
+}
+.contact input,textarea{
+	width:100%;
+	padding:10px;
+	font-size:1rem;
+	text-align:center;
+	border:none;
+	border-radius:5px;
+	resize:none;
+}
+.contact button{
+	border:none;
+	border-radius:10px;
+	background-color:pink;
+	color:white;
+	cursor:pointer;
+	padding:8px;
+	margin:10px;
+	width:100px;
+}
+
+.contact-social-media{
+	text-align:center;
+}
+.media-buttons .btn{
+	border:none;
+	border-radius:25px;
+	cursor:pointer;
+	font-size:32px;
+	padding:5px;
+	margin:10px;
+	width:50px;
+}
+.btn:hover{
+	background-color:gray;
+}
+.contact-description::after{
+	clear:both;
+	display:table;
+	content:'';
+
+/*contact me end*/
+
